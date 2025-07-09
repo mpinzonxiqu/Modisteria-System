@@ -1,0 +1,79 @@
+/* Estilo para el formulario general */
+form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Personalización de los selectores */
+.custom-select {
+    background-color: #fff;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #495057;
+    padding: 10px 12px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.custom-select:focus {
+    background-color: #e9ecef;
+    border-color: #80bdff;
+    outline: none;
+}
+
+/* Estilo de las etiquetas */
+label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilo para los mensajes de error */
+.text-danger {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Personalización del botón */
+.custom-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.custom-btn:active {
+    transform: translateY(1px);
+}
+
+/* Ajustes para los márgenes del formulario */
+.form-group {
+    margin-bottom: 25px;
+}
+
+/* Añadir un espaciado entre los elementos del formulario */
+.mb-3, .mb-4 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
